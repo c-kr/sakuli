@@ -34,7 +34,7 @@ RUN $INST_SCRIPTS/docker.sh
 RUN $INST_SCRIPTS/docker-compose.sh
 
 ### Install Sakuli UI
-ARG SAKULI_VERSION=1.2.0-SNAPSHOT
+ARG SAKULI_VERSION=1.2.0-304_forward_case_and_step_results-SNAPSHOT
 RUN $INST_SCRIPTS/sakuli_ui.sh
 
 #### configure startup
